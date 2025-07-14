@@ -3,14 +3,14 @@
 source 'https://rubygems.org'
 
 group :development do
-  gem 'jekyll', '~> 4.2.0'
+  gem 'jekyll', '~> 4.3.0'
   gem 'jekyll-sitemap'
-  gem 'jekyll-last-modified-at'
+  gem 'jekyll-last-modified-at', '>= 1.3.2'
 end
 
 group :test do
   gem 'rake'
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 5.0.0'
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8", ">= 1.8.2"
